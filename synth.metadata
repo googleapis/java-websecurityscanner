@@ -1,6 +1,12 @@
 {
-  "updateTime": "2020-04-02T01:35:10.529789Z",
   "sources": [
+    {
+      "git": {
+        "name": ".",
+        "remote": "https://github.com/googleapis/java-websecurityscanner.git",
+        "sha": "0366fc4e00c4b5aa751500b86f7603d979eb0304"
+      }
+    },
     {
       "git": {
         "name": "googleapis",
