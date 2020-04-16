@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-websecurityscanner.git",
-        "sha": "534fef5b5c6bacb84198abdb062506475df932b8"
+        "sha": "245eb51acf68f8f244c4013ef30a953fd6fb574a"
       }
     },
     {
