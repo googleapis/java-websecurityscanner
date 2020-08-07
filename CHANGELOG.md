@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.118.1](https://www.github.com/googleapis/java-websecurityscanner/compare/v0.118.0...v0.118.1) (2020-08-07)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.8.2 ([#181](https://www.github.com/googleapis/java-websecurityscanner/issues/181)) ([f82f3fe](https://www.github.com/googleapis/java-websecurityscanner/commit/f82f3fe14cc3bf14dcd097c9e2d57813b0fadda4))
+
 ## [0.118.0](https://www.github.com/googleapis/java-websecurityscanner/compare/v0.117.0...v0.118.0) (2020-06-22)
 
 
