@@ -3,8 +3,8 @@
 
 proto-google-cloud-websecurityscanner-v1alpha:0.84.0:0.84.0
 proto-google-cloud-websecurityscanner-v1beta:0.84.0:0.84.0
-proto-google-cloud-websecurityscanner-v1:0.84.0:0.84.0
+proto-google-cloud-websecurityscanner-v1:1.0.0:1.0.0
 grpc-google-cloud-websecurityscanner-v1alpha:0.84.0:0.84.0
 grpc-google-cloud-websecurityscanner-v1beta:0.84.0:0.84.0
-grpc-google-cloud-websecurityscanner-v1:0.84.0:0.84.0
-google-cloud-websecurityscanner:0.119.0:0.119.0
+grpc-google-cloud-websecurityscanner-v1:1.0.0:1.0.0
+google-cloud-websecurityscanner:1.0.0:1.0.0
