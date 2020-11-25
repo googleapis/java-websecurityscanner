@@ -22,15 +22,7 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- *
- *
- * <pre>
- * Cloud Web Security Scanner Service identifies security vulnerabilities in web
- * applications hosted on Google Cloud Platform. It crawls your application, and
- * attempts to exercise as many user inputs and event handlers as possible.
- * </pre>
- */
+/** */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/cloud/websecurityscanner/v1alpha/web_security_scanner.proto")
@@ -699,24 +691,10 @@ public final class WebSecurityScannerGrpc {
     return WebSecurityScannerFutureStub.newStub(factory, channel);
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Cloud Web Security Scanner Service identifies security vulnerabilities in web
-   * applications hosted on Google Cloud Platform. It crawls your application, and
-   * attempts to exercise as many user inputs and event handlers as possible.
-   * </pre>
-   */
+  /** */
   public abstract static class WebSecurityScannerImplBase implements io.grpc.BindableService {
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new ScanConfig.
-     * </pre>
-     */
+    /** */
     public void createScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.CreateScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -724,26 +702,14 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getCreateScanConfigMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes an existing ScanConfig and its child resources.
-     * </pre>
-     */
+    /** */
     public void deleteScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.DeleteScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
       asyncUnimplementedUnaryCall(getDeleteScanConfigMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanConfig.
-     * </pre>
-     */
+    /** */
     public void getScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.GetScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -751,13 +717,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getGetScanConfigMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanConfigs under a given project.
-     * </pre>
-     */
+    /** */
     public void listScanConfigs(
         com.google.cloud.websecurityscanner.v1alpha.ListScanConfigsRequest request,
         io.grpc.stub.StreamObserver<
@@ -766,13 +726,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getListScanConfigsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a ScanConfig. This method support partial update of a ScanConfig.
-     * </pre>
-     */
+    /** */
     public void updateScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.UpdateScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -780,13 +734,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getUpdateScanConfigMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Start a ScanRun according to the given ScanConfig.
-     * </pre>
-     */
+    /** */
     public void startScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StartScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -794,13 +742,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getStartScanRunMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanRun.
-     * </pre>
-     */
+    /** */
     public void getScanRun(
         com.google.cloud.websecurityscanner.v1alpha.GetScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -808,14 +750,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getGetScanRunMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanRuns under a given ScanConfig, in descending order of ScanRun
-     * stop time.
-     * </pre>
-     */
+    /** */
     public void listScanRuns(
         com.google.cloud.websecurityscanner.v1alpha.ListScanRunsRequest request,
         io.grpc.stub.StreamObserver<
@@ -824,13 +759,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getListScanRunsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Stops a ScanRun. The stopped ScanRun is returned.
-     * </pre>
-     */
+    /** */
     public void stopScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StopScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -838,13 +767,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getStopScanRunMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List CrawledUrls under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listCrawledUrls(
         com.google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsRequest request,
         io.grpc.stub.StreamObserver<
@@ -853,13 +776,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getListCrawledUrlsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a Finding.
-     * </pre>
-     */
+    /** */
     public void getFinding(
         com.google.cloud.websecurityscanner.v1alpha.GetFindingRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.Finding>
@@ -867,13 +784,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getGetFindingMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List Findings under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listFindings(
         com.google.cloud.websecurityscanner.v1alpha.ListFindingsRequest request,
         io.grpc.stub.StreamObserver<
@@ -882,13 +793,7 @@ public final class WebSecurityScannerGrpc {
       asyncUnimplementedUnaryCall(getListFindingsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List all FindingTypeStats under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listFindingTypeStats(
         com.google.cloud.websecurityscanner.v1alpha.ListFindingTypeStatsRequest request,
         io.grpc.stub.StreamObserver<
@@ -994,15 +899,7 @@ public final class WebSecurityScannerGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Cloud Web Security Scanner Service identifies security vulnerabilities in web
-   * applications hosted on Google Cloud Platform. It crawls your application, and
-   * attempts to exercise as many user inputs and event handlers as possible.
-   * </pre>
-   */
+  /** */
   public static final class WebSecurityScannerStub
       extends io.grpc.stub.AbstractAsyncStub<WebSecurityScannerStub> {
     private WebSecurityScannerStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -1015,13 +912,7 @@ public final class WebSecurityScannerGrpc {
       return new WebSecurityScannerStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new ScanConfig.
-     * </pre>
-     */
+    /** */
     public void createScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.CreateScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -1032,13 +923,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes an existing ScanConfig and its child resources.
-     * </pre>
-     */
+    /** */
     public void deleteScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.DeleteScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -1048,13 +933,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanConfig.
-     * </pre>
-     */
+    /** */
     public void getScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.GetScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -1065,13 +944,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanConfigs under a given project.
-     * </pre>
-     */
+    /** */
     public void listScanConfigs(
         com.google.cloud.websecurityscanner.v1alpha.ListScanConfigsRequest request,
         io.grpc.stub.StreamObserver<
@@ -1083,13 +956,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a ScanConfig. This method support partial update of a ScanConfig.
-     * </pre>
-     */
+    /** */
     public void updateScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.UpdateScanConfigRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
@@ -1100,13 +967,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Start a ScanRun according to the given ScanConfig.
-     * </pre>
-     */
+    /** */
     public void startScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StartScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -1117,13 +978,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanRun.
-     * </pre>
-     */
+    /** */
     public void getScanRun(
         com.google.cloud.websecurityscanner.v1alpha.GetScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -1132,14 +987,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getGetScanRunMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanRuns under a given ScanConfig, in descending order of ScanRun
-     * stop time.
-     * </pre>
-     */
+    /** */
     public void listScanRuns(
         com.google.cloud.websecurityscanner.v1alpha.ListScanRunsRequest request,
         io.grpc.stub.StreamObserver<
@@ -1151,13 +999,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Stops a ScanRun. The stopped ScanRun is returned.
-     * </pre>
-     */
+    /** */
     public void stopScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StopScanRunRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.ScanRun>
@@ -1168,13 +1010,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List CrawledUrls under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listCrawledUrls(
         com.google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsRequest request,
         io.grpc.stub.StreamObserver<
@@ -1186,13 +1022,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a Finding.
-     * </pre>
-     */
+    /** */
     public void getFinding(
         com.google.cloud.websecurityscanner.v1alpha.GetFindingRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.websecurityscanner.v1alpha.Finding>
@@ -1201,13 +1031,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getGetFindingMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List Findings under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listFindings(
         com.google.cloud.websecurityscanner.v1alpha.ListFindingsRequest request,
         io.grpc.stub.StreamObserver<
@@ -1219,13 +1043,7 @@ public final class WebSecurityScannerGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List all FindingTypeStats under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public void listFindingTypeStats(
         com.google.cloud.websecurityscanner.v1alpha.ListFindingTypeStatsRequest request,
         io.grpc.stub.StreamObserver<
@@ -1238,15 +1056,7 @@ public final class WebSecurityScannerGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Cloud Web Security Scanner Service identifies security vulnerabilities in web
-   * applications hosted on Google Cloud Platform. It crawls your application, and
-   * attempts to exercise as many user inputs and event handlers as possible.
-   * </pre>
-   */
+  /** */
   public static final class WebSecurityScannerBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<WebSecurityScannerBlockingStub> {
     private WebSecurityScannerBlockingStub(
@@ -1260,161 +1070,82 @@ public final class WebSecurityScannerGrpc {
       return new WebSecurityScannerBlockingStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanConfig createScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.CreateScanConfigRequest request) {
       return blockingUnaryCall(
           getChannel(), getCreateScanConfigMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes an existing ScanConfig and its child resources.
-     * </pre>
-     */
+    /** */
     public com.google.protobuf.Empty deleteScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.DeleteScanConfigRequest request) {
       return blockingUnaryCall(
           getChannel(), getDeleteScanConfigMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanConfig getScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.GetScanConfigRequest request) {
       return blockingUnaryCall(getChannel(), getGetScanConfigMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanConfigs under a given project.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ListScanConfigsResponse listScanConfigs(
         com.google.cloud.websecurityscanner.v1alpha.ListScanConfigsRequest request) {
       return blockingUnaryCall(getChannel(), getListScanConfigsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a ScanConfig. This method support partial update of a ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanConfig updateScanConfig(
         com.google.cloud.websecurityscanner.v1alpha.UpdateScanConfigRequest request) {
       return blockingUnaryCall(
           getChannel(), getUpdateScanConfigMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Start a ScanRun according to the given ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanRun startScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StartScanRunRequest request) {
       return blockingUnaryCall(getChannel(), getStartScanRunMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanRun getScanRun(
         com.google.cloud.websecurityscanner.v1alpha.GetScanRunRequest request) {
       return blockingUnaryCall(getChannel(), getGetScanRunMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanRuns under a given ScanConfig, in descending order of ScanRun
-     * stop time.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ListScanRunsResponse listScanRuns(
         com.google.cloud.websecurityscanner.v1alpha.ListScanRunsRequest request) {
       return blockingUnaryCall(getChannel(), getListScanRunsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Stops a ScanRun. The stopped ScanRun is returned.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ScanRun stopScanRun(
         com.google.cloud.websecurityscanner.v1alpha.StopScanRunRequest request) {
       return blockingUnaryCall(getChannel(), getStopScanRunMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List CrawledUrls under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsResponse listCrawledUrls(
         com.google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsRequest request) {
       return blockingUnaryCall(getChannel(), getListCrawledUrlsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a Finding.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.Finding getFinding(
         com.google.cloud.websecurityscanner.v1alpha.GetFindingRequest request) {
       return blockingUnaryCall(getChannel(), getGetFindingMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List Findings under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ListFindingsResponse listFindings(
         com.google.cloud.websecurityscanner.v1alpha.ListFindingsRequest request) {
       return blockingUnaryCall(getChannel(), getListFindingsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List all FindingTypeStats under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.websecurityscanner.v1alpha.ListFindingTypeStatsResponse
         listFindingTypeStats(
             com.google.cloud.websecurityscanner.v1alpha.ListFindingTypeStatsRequest request) {
@@ -1423,15 +1154,7 @@ public final class WebSecurityScannerGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Cloud Web Security Scanner Service identifies security vulnerabilities in web
-   * applications hosted on Google Cloud Platform. It crawls your application, and
-   * attempts to exercise as many user inputs and event handlers as possible.
-   * </pre>
-   */
+  /** */
   public static final class WebSecurityScannerFutureStub
       extends io.grpc.stub.AbstractFutureStub<WebSecurityScannerFutureStub> {
     private WebSecurityScannerFutureStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -1444,13 +1167,7 @@ public final class WebSecurityScannerGrpc {
       return new WebSecurityScannerFutureStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
         createScanConfig(
@@ -1459,13 +1176,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getCreateScanConfigMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes an existing ScanConfig and its child resources.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<com.google.protobuf.Empty>
         deleteScanConfig(
             com.google.cloud.websecurityscanner.v1alpha.DeleteScanConfigRequest request) {
@@ -1473,13 +1184,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getDeleteScanConfigMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
         getScanConfig(com.google.cloud.websecurityscanner.v1alpha.GetScanConfigRequest request) {
@@ -1487,13 +1192,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getGetScanConfigMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanConfigs under a given project.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ListScanConfigsResponse>
         listScanConfigs(
@@ -1502,13 +1201,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getListScanConfigsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a ScanConfig. This method support partial update of a ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanConfig>
         updateScanConfig(
@@ -1517,13 +1210,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getUpdateScanConfigMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Start a ScanRun according to the given ScanConfig.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanRun>
         startScanRun(com.google.cloud.websecurityscanner.v1alpha.StartScanRunRequest request) {
@@ -1531,13 +1218,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getStartScanRunMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanRun>
         getScanRun(com.google.cloud.websecurityscanner.v1alpha.GetScanRunRequest request) {
@@ -1545,14 +1226,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getGetScanRunMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists ScanRuns under a given ScanConfig, in descending order of ScanRun
-     * stop time.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ListScanRunsResponse>
         listScanRuns(com.google.cloud.websecurityscanner.v1alpha.ListScanRunsRequest request) {
@@ -1560,13 +1234,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getListScanRunsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Stops a ScanRun. The stopped ScanRun is returned.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ScanRun>
         stopScanRun(com.google.cloud.websecurityscanner.v1alpha.StopScanRunRequest request) {
@@ -1574,13 +1242,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getStopScanRunMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List CrawledUrls under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ListCrawledUrlsResponse>
         listCrawledUrls(
@@ -1589,13 +1251,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getListCrawledUrlsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a Finding.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.Finding>
         getFinding(com.google.cloud.websecurityscanner.v1alpha.GetFindingRequest request) {
@@ -1603,13 +1259,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getGetFindingMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List Findings under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ListFindingsResponse>
         listFindings(com.google.cloud.websecurityscanner.v1alpha.ListFindingsRequest request) {
@@ -1617,13 +1267,7 @@ public final class WebSecurityScannerGrpc {
           getChannel().newCall(getListFindingsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * List all FindingTypeStats under a given ScanRun.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.websecurityscanner.v1alpha.ListFindingTypeStatsResponse>
         listFindingTypeStats(
