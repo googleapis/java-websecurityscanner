@@ -11,24 +11,24 @@
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "8cfc6c874574b649b4524a4ef6a0651533325a84",
-        "internalRef": "345067549"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "8cfc6c874574b649b4524a4ef6a0651533325a84",
-        "internalRef": "345067549"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "8cfc6c874574b649b4524a4ef6a0651533325a84",
-        "internalRef": "345067549"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
@@ -179,7 +179,6 @@
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/DeleteScanConfigRequestOrBuilder.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/Finding.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingAddonProto.java",
-    "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingName.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingOrBuilder.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingProto.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingTypeStats.java",
