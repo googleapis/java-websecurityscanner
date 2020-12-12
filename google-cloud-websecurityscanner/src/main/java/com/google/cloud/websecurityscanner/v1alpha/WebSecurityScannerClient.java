@@ -154,7 +154,7 @@ public class WebSecurityScannerClient implements BackgroundResource {
    *
    * @param parent Required. The parent resource name where the scan is created, which should be a
    *     project resource name in the format 'projects/{projectId}'.
-   * @param scan_config Required. The ScanConfig to be created.
+   * @param scanConfig Required. The ScanConfig to be created.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final ScanConfig createScanConfig(ProjectName parent, ScanConfig scanConfig) {
@@ -172,7 +172,7 @@ public class WebSecurityScannerClient implements BackgroundResource {
    *
    * @param parent Required. The parent resource name where the scan is created, which should be a
    *     project resource name in the format 'projects/{projectId}'.
-   * @param scan_config Required. The ScanConfig to be created.
+   * @param scanConfig Required. The ScanConfig to be created.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final ScanConfig createScanConfig(String parent, ScanConfig scanConfig) {
@@ -364,10 +364,10 @@ public class WebSecurityScannerClient implements BackgroundResource {
   /**
    * Updates a ScanConfig. This method support partial update of a ScanConfig.
    *
-   * @param scan_config Required. The ScanConfig to be updated. The name field must be set to
+   * @param scanConfig Required. The ScanConfig to be updated. The name field must be set to
    *     identify the resource to be updated. The values of fields not covered by the mask will be
    *     ignored.
-   * @param update_mask Required. The update mask applies to the resource. For the `FieldMask`
+   * @param updateMask Required. The update mask applies to the resource. For the `FieldMask`
    *     definition, see
    *     https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#fieldmask
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails

@@ -251,11 +251,21 @@ public class GrpcWebSecurityScannerStub extends WebSecurityScannerStub {
         WebSecurityScannerStubSettings.newBuilder().build(), clientContext, callableFactory);
   }
 
+  /**
+   * Constructs an instance of GrpcWebSecurityScannerStub, using the given settings. This is
+   * protected so that it is easy to make a subclass, but otherwise, the static factory methods
+   * should be preferred.
+   */
   protected GrpcWebSecurityScannerStub(
       WebSecurityScannerStubSettings settings, ClientContext clientContext) throws IOException {
     this(settings, clientContext, new GrpcWebSecurityScannerCallableFactory());
   }
 
+  /**
+   * Constructs an instance of GrpcWebSecurityScannerStub, using the given settings. This is
+   * protected so that it is easy to make a subclass, but otherwise, the static factory methods
+   * should be preferred.
+   */
   protected GrpcWebSecurityScannerStub(
       WebSecurityScannerStubSettings settings,
       ClientContext clientContext,
