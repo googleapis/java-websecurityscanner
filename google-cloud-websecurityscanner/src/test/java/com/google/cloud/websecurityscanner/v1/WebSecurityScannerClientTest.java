@@ -90,7 +90,7 @@ public class WebSecurityScannerClientTest {
     ScanConfig expectedResponse =
         ScanConfig.newBuilder()
             .setName("name3373707")
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .setMaxQps(844445913)
             .addAllStartingUrls(new ArrayList<String>())
             .addAllBlacklistPatterns(new ArrayList<String>())
@@ -179,7 +179,7 @@ public class WebSecurityScannerClientTest {
     ScanConfig expectedResponse =
         ScanConfig.newBuilder()
             .setName("name3373707")
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .setMaxQps(844445913)
             .addAllStartingUrls(new ArrayList<String>())
             .addAllBlacklistPatterns(new ArrayList<String>())
@@ -232,7 +232,7 @@ public class WebSecurityScannerClientTest {
     ListScanConfigsRequest request =
         ListScanConfigsRequest.newBuilder()
             .setParent("parent-995424086")
-            .setPageToken("page_token1630607433")
+            .setPageToken("pageToken873572522")
             .setPageSize(883849137)
             .build();
 
@@ -265,7 +265,7 @@ public class WebSecurityScannerClientTest {
       ListScanConfigsRequest request =
           ListScanConfigsRequest.newBuilder()
               .setParent("parent-995424086")
-              .setPageToken("page_token1630607433")
+              .setPageToken("pageToken873572522")
               .setPageSize(883849137)
               .build();
       client.listScanConfigs(request);
@@ -280,7 +280,7 @@ public class WebSecurityScannerClientTest {
     ScanConfig expectedResponse =
         ScanConfig.newBuilder()
             .setName("name3373707")
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .setMaxQps(844445913)
             .addAllStartingUrls(new ArrayList<String>())
             .addAllBlacklistPatterns(new ArrayList<String>())
@@ -433,7 +433,7 @@ public class WebSecurityScannerClientTest {
     ListScanRunsRequest request =
         ListScanRunsRequest.newBuilder()
             .setParent("parent-995424086")
-            .setPageToken("page_token1630607433")
+            .setPageToken("pageToken873572522")
             .setPageSize(883849137)
             .build();
 
@@ -466,7 +466,7 @@ public class WebSecurityScannerClientTest {
       ListScanRunsRequest request =
           ListScanRunsRequest.newBuilder()
               .setParent("parent-995424086")
-              .setPageToken("page_token1630607433")
+              .setPageToken("pageToken873572522")
               .setPageSize(883849137)
               .build();
       client.listScanRuns(request);
@@ -535,7 +535,7 @@ public class WebSecurityScannerClientTest {
     ListCrawledUrlsRequest request =
         ListCrawledUrlsRequest.newBuilder()
             .setParent("parent-995424086")
-            .setPageToken("page_token1630607433")
+            .setPageToken("pageToken873572522")
             .setPageSize(883849137)
             .build();
 
@@ -568,7 +568,7 @@ public class WebSecurityScannerClientTest {
       ListCrawledUrlsRequest request =
           ListCrawledUrlsRequest.newBuilder()
               .setParent("parent-995424086")
-              .setPageToken("page_token1630607433")
+              .setPageToken("pageToken873572522")
               .setPageSize(883849137)
               .build();
       client.listCrawledUrls(request);
@@ -583,15 +583,15 @@ public class WebSecurityScannerClientTest {
     Finding expectedResponse =
         Finding.newBuilder()
             .setName("name3373707")
-            .setFindingType("finding_type274496048")
-            .setHttpMethod("http_method820747384")
-            .setFuzzedUrl("fuzzed_url-2120677666")
+            .setFindingType("findingType1116910179")
+            .setHttpMethod("httpMethod751124361")
+            .setFuzzedUrl("fuzzedUrl-1730986655")
             .setBody("body3029410")
             .setDescription("description-1724546052")
-            .setReproductionUrl("reproduction_url-244934180")
-            .setFrameUrl("frame_url545464221")
-            .setFinalUrl("final_url355601190")
-            .setTrackingId("tracking_id1878901667")
+            .setReproductionUrl("reproductionUrl-2086120797")
+            .setFrameUrl("frameUrl-1644982078")
+            .setFinalUrl("finalUrl-681275367")
+            .setTrackingId("trackingId1168987698")
             .setForm(Form.newBuilder().build())
             .setOutdatedLibrary(OutdatedLibrary.newBuilder().build())
             .setViolatingResource(ViolatingResource.newBuilder().build())
@@ -645,7 +645,7 @@ public class WebSecurityScannerClientTest {
         ListFindingsRequest.newBuilder()
             .setParent("parent-995424086")
             .setFilter("filter-1274492040")
-            .setPageToken("page_token1630607433")
+            .setPageToken("pageToken873572522")
             .setPageSize(883849137)
             .build();
 
@@ -680,7 +680,7 @@ public class WebSecurityScannerClientTest {
           ListFindingsRequest.newBuilder()
               .setParent("parent-995424086")
               .setFilter("filter-1274492040")
-              .setPageToken("page_token1630607433")
+              .setPageToken("pageToken873572522")
               .setPageSize(883849137)
               .build();
       client.listFindings(request);
