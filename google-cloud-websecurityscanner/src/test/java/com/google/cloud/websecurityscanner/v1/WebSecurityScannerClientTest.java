@@ -582,7 +582,8 @@ public class WebSecurityScannerClientTest {
   public void getFindingTest() throws Exception {
     Finding expectedResponse =
         Finding.newBuilder()
-            .setName("name3373707")
+            .setName(
+                FindingName.of("[PROJECT]", "[SCAN_CONFIG]", "[SCAN_RUN]", "[FINDING]").toString())
             .setFindingType("findingType1116910179")
             .setHttpMethod("httpMethod751124361")
             .setFuzzedUrl("fuzzedUrl-1730986655")
