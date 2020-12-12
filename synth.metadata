@@ -4,31 +4,31 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-websecurityscanner.git",
-        "sha": "f511305cf4f654cef126d08a1e43ce61fb0b178a"
+        "sha": "d7dbf4e4905373140934c3617360aa93f42920e1"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "68e27f637b044274f996c45058fa81bd535bac54",
-        "internalRef": "340704397"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "68e27f637b044274f996c45058fa81bd535bac54",
-        "internalRef": "340704397"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "68e27f637b044274f996c45058fa81bd535bac54",
-        "internalRef": "340704397"
+        "sha": "a4d732fdc4905a35391ad235a74180ba26d57b0d",
+        "internalRef": "345496255"
       }
     },
     {
@@ -179,7 +179,6 @@
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/DeleteScanConfigRequestOrBuilder.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/Finding.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingAddonProto.java",
-    "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingName.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingOrBuilder.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingProto.java",
     "proto-google-cloud-websecurityscanner-v1/src/main/java/com/google/cloud/websecurityscanner/v1/FindingTypeStats.java",
