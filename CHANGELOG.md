@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/googleapis/java-websecurityscanner/compare/v1.2.2...v1.3.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#506](https://www.github.com/googleapis/java-websecurityscanner/issues/506)) ([f4edc3e](https://www.github.com/googleapis/java-websecurityscanner/commit/f4edc3e65fadbf67d0b80e37967385cbab125dd5))
+
 ### [1.2.2](https://www.github.com/googleapis/java-websecurityscanner/compare/v1.2.1...v1.2.2) (2021-07-01)
 
 
