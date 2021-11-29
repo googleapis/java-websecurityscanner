@@ -40,17 +40,18 @@ public final class CrawledUrlProto {
 
   static {
     java.lang.String[] descriptorData = {
-      "\n4google/cloud/websecurityscanner/v1/cra"
-          + "wled_url.proto\022\"google.cloud.websecurity"
-          + "scanner.v1\"<\n\nCrawledUrl\022\023\n\013http_method\030"
-          + "\001 \001(\t\022\013\n\003url\030\002 \001(\t\022\014\n\004body\030\003 \001(\tB\203\002\n&com"
-          + ".google.cloud.websecurityscanner.v1B\017Cra"
-          + "wledUrlProtoP\001ZTgoogle.golang.org/genpro"
-          + "to/googleapis/cloud/websecurityscanner/v"
+      "\n"
+          + "4google/cloud/websecurityscanner/v1/cra"
+          + "wled_url.proto\022\"google.cloud.websecurityscanner.v1\"<\n\n"
+          + "CrawledUrl\022\023\n"
+          + "\013http_method\030\001 \001(\t\022\013\n"
+          + "\003url\030\002 \001(\t\022\014\n"
+          + "\004body\030\003 \001(\tB\203\002\n"
+          + "&com.google.cloud.websecurityscanner.v1B\017Cra"
+          + "wledUrlProtoP\001ZTgoogle.golang.org/genproto/googleapis/cloud/websecurityscanner/v"
           + "1;websecurityscanner\252\002\"Google.Cloud.WebS"
           + "ecurityScanner.V1\312\002\"Google\\Cloud\\WebSecu"
-          + "rityScanner\\V1\352\002%Google::Cloud::WebSecur"
-          + "ityScanner::V1b\006proto3"
+          + "rityScanner\\V1\352\002%Google::Cloud::WebSecurityScanner::V1b\006proto3"
     };
     descriptor =
         com.google.protobuf.Descriptors.FileDescriptor.internalBuildGeneratedFileFrom(
