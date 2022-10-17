@@ -72,7 +72,7 @@
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-websecurityscanner-v1alpha</artifactId>
-        <version>0.90.1-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-websecurityscanner-v1alpha:current} -->
+        <version>0.91.0</version><!-- {x-version-update:proto-google-cloud-websecurityscanner-v1alpha:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
